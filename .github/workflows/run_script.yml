@@ -3,7 +3,7 @@ name: Run Python Script Hourly at :15
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 * * * *'  # Runs at :15 every hour (UTC time)
+    - cron: '20 * * * *'  # Runs at :15 every hour (UTC time)
 
 jobs:
   run-script:
